@@ -3,7 +3,6 @@
     --vino-oscuro: #5a0018;
     --vino-medio: #7a0c2f;
     --vino-claro: #a52a4d;
-
     --fondo: #f5f1f2;
     --texto: #2c2c2c;
 }
@@ -15,275 +14,187 @@
 }
 
 body {
-
     font-family: system-ui, sans-serif;
-
     background-color: var(--fondo);
-
     color: var(--texto);
 }
 
 header {
-
     background-color: var(--vino-oscuro);
-
     color: white;
-
     text-align: center;
-
     padding: 25px;
 }
 
 nav {
-
     margin-top: 15px;
 }
 
 nav a {
-
     color: white;
-
     text-decoration: none;
-
     margin: 0 15px;
-
     font-weight: bold;
 }
 
 nav a:hover {
-
     color: #ffd6df;
 }
 
 main {
-
     max-width: 1100px;
-
     margin: auto;
-
     padding: 30px;
 }
 
 section {
-
     margin-bottom: 30px;
 }
 
 h2 {
-
     color: var(--vino-oscuro);
-
     margin-bottom: 15px;
 }
 
 .perfil {
-
     text-align: center;
 }
 
 .avatar-seccion {
-
     text-align: center;
 }
 
 .avatar {
-
     width: 170px;
-
     height: 170px;
-
     object-fit: cover;
-
     border-radius: 50%;
-
     border: 5px solid var(--vino-medio);
-
     display: block;
-
     margin: auto;
 }
 
 .sobre-mi {
 
     background: white;
-
     padding: 25px;
-
     border-radius: 10px;
-
     text-align: center;
-
     box-shadow: 0px 4px 10px rgba(0,0,0,.15);
 }
 
 .sobre-mi p {
-
     margin-top: 10px;
-
     line-height: 1.6;
 }
 
 .hobbies {
-
     background: white;
-
     padding: 25px;
-
     border-radius: 10px;
-
     text-align: center;
-
     box-shadow: 0px 4px 10px rgba(0,0,0,.15);
 }
 
 .hobbies ul {
-
     list-style-position: inside;
-
     margin-top: 10px;
 }
 
 .hobbies li {
-
     margin: 8px 0;
 }
 
 .tarjeta-destacada {
-
     background: white;
-
     padding: 25px;
-
     border-left: 8px solid var(--vino-oscuro);
-
     border-radius: 10px;
-
     box-shadow: 0px 4px 10px rgba(0,0,0,.15);
 }
 
 .contenedor-tarjetas {
-
     display: flex;
-
     gap: 20px;
 }
 
 .tarjeta {
-
     flex: 1;
-
     background: white;
-
     padding: 20px;
-
     text-align: center;
-
     border-radius: 10px;
-
     box-shadow: 0px 4px 10px rgba(0,0,0,.15);
 }
 
 .tarjeta a {
-
     display: inline-block;
-
     margin-top: 10px;
-
     color: var(--vino-medio);
-
     text-decoration: none;
-
     font-weight: bold;
 }
 
 .tarjeta a:hover {
-
     color: var(--vino-claro);
 }
 
 table {
-
     width: 100%;
-
     border-collapse: collapse;
-
     background: white;
 }
 
 th {
-
     background-color: var(--vino-oscuro);
-
     color: white;
 }
 
 th,
 td {
-
     border: 1px solid #ccc;
-
     padding: 12px;
 }
 
 form {
-
     display: flex;
-
     flex-direction: column;
-
     gap: 10px;
 }
 
 input,
 textarea {
-
     padding: 10px;
-
     border: 1px solid #ccc;
-
     border-radius: 8px;
 }
 
 button {
-
     background-color: var(--vino-oscuro);
-
     color: white;
-
     border: none;
-
     padding: 12px;
-
     border-radius: 8px;
-
     cursor: pointer;
 }
 
 button:hover {
-
     background-color: var(--vino-medio);
 }
 
 footer {
-
     background-color: var(--vino-oscuro);
-
     color: white;
-
     text-align: center;
-
     padding: 20px;
 }
 
 @media (max-width: 600px) {
-
     .contenedor-tarjetas {
-
         flex-direction: column;
     }
 
     .avatar {
-
         width: 130px;
         height: 130px;
     }
